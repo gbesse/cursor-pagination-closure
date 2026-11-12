@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "START": {
+      "items": [
+        {
+          "id": "first"
+        }
+      ],
+      "next_cursor": "p2"
+    },
+    "p2": {
+      "items": [
+        {
+          "id": "second"
+        }
+      ]
+    }
+  }
+}

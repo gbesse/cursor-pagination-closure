@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cursor-pagination-closure"
+version = "0.1.0a1"
+description = "FR: Détecter pages manquantes et boucles de curseurs | EN: Detect missing pages and cursor loops | ES: Detectar páginas ausentes y bucles de cursor"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+cursor-pagination-closure = "cursor_pagination_closure.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["cursor_pagination_closure*"]
